@@ -627,6 +627,13 @@ a:hover {
     }
     .container0{
         font-size: small;
+        width: 92%;
+    }
+    .imaged{
+        display: none;
+    }
+    .encryptout{
+        width: 90%;
     }
 }
 .driver-popover.driverjs-theme {
