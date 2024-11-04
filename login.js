@@ -36,7 +36,7 @@ document.getElementById('submit').addEventListener("submit",(Event)=>{
         console.log('useris there');
         setTimeout(() => {
             
-            location.href="chatgpt.html"
+            location.href="index.html"
         }, 1500);
         Toastify({
             gravity: "bottom",
