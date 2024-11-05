@@ -594,13 +594,27 @@ window.onbeforeunload = function (event) {
     localStorage.setItem(userloggedi+"dec" || userloggedi1,dec.innerHTML)
   // }
   localStorage.removeItem("userloggedi11")
-  localStorage.removeItem("userloggedin")
+  // localStorage.removeItem("userloggedin")
   localStorage.removeItem(userloggedi1 + 1)
   console.log('closed');
 
 
 
 }
+function updateLinks() {
+  if (window.innerWidth < 1400) {
+    const links = document.querySelectorAll(".change");
+
+    links.forEach(link => {
+      link.href = "ayyanfdg.html";
+    });
+  }
+  
+}
+
+updateLinks();
+
+window.addEventListener("resize", updateLinks);
 // Toastify({
 //   text: "This is a toast",
 //   duration: 3000,
