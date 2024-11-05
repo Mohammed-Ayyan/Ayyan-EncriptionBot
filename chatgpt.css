@@ -246,7 +246,7 @@ section {
 }
 
 .container0 {
-    width: 80%;
+    width: 85%;
     padding: 20px;
     border-radius: 15px;
     display: flex;
@@ -628,6 +628,10 @@ a:hover {
     .container0{
         font-size: small;
         width: 92%;
+    }
+    .container00{
+        font-size: small;
+        width: 85%;
     }
     .imaged{
         display: none;
