@@ -606,7 +606,7 @@ function updateLinks() {
     const links = document.querySelectorAll(".change");
 
     links.forEach(link => {
-      link.href = "ayyanfg.html";
+      link.href = "ayyan.html";
     });
   }
   else{
