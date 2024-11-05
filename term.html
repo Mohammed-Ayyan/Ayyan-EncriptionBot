@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+</head>
+
+<body>
+    <div id="ayyan"><h1>Hello There!</h1><div class="funfact howtouse">
+            <h3>Comming soon</h3>
+            <p>Our exciting new features are coming soon.  
+                I am working hard to make everything just right, so stay tuned!  
+                
+                </p>
+            <p>Click here to go to signup page</p>
+            
+        </div>
+    </div>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+    <script>
+        // Toastify({
+        //   text: "This is a toast",
+        //   duration: 3000,
+        //   destination: "https://github.com/apvarun/toastify-js",
+        //   newWindow: true,
+        //   close: true,
+        //   gravity: "top", // `top` or `bottom`
+        //   position: "left", // `left`, `center` or `right`
+        //   stopOnFocus: true, // Prevents dismissing of toast on hover
+        //   style: {
+        //     background: "linear-gradient(to right, #00b09b, #96c93d)",
+        //   },
+        //   onClick: function(){} // Callback after click
+        // }).showToast();
+        let ayyan = document.getElementById('ayyan');
+
+        Toastify({
+            node: ayyan,
+          destination: "Signup.html",
+
+            duration: -1,
+            gravity:"center",
+            position:"center",
+            text: "This is a toast",
+            style: {
+            background: "linear-gradient(to right, #00b09b, #96c93d)",
+            // height:"50vh"
+            position:"fixed",
+            top:"500px"
+            
+          },
+
+        }).showToast();
+    </script>
+</body>
+
+</html>
