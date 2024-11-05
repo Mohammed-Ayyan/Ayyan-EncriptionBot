@@ -309,7 +309,7 @@ function decrypt() {
       let join = array1.join(" ")
       console.log(join)
       let a = document.getElementById("outp")
-      let out = document.getElementById('maind').insertAdjacentHTML("beforeend", `<div class="container0"  data-aos="zoom-in-up">
+      let out = document.getElementById('maind').insertAdjacentHTML("beforeend", `<div class="container0 container00"  data-aos="zoom-in-up">
             <div class="input0">` + document.getElementById('textad').value + `
             </div>
             <div class="sum">
@@ -336,7 +336,7 @@ function decrypt() {
       let join = array1.join(" ")
       console.log(join)
       let a = document.getElementById("outp")
-      let out = document.getElementById('maind').insertAdjacentHTML("beforeend", `<div class="container0">
+      let out = document.getElementById('maind').insertAdjacentHTML("beforeend", `<div class="container0 container00">
             <div class="input0">` + document.getElementById('textad').value + `
             </div>
             <div class="sum">
