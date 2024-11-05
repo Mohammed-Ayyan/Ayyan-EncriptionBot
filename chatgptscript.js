@@ -606,7 +606,18 @@ function updateLinks() {
     const links = document.querySelectorAll(".change");
 
     links.forEach(link => {
-      link.href = "ayyanfdg.html";
+      link.href = "ayyanfg.html";
+    });
+  }
+  else{
+    const links = document.querySelectorAll(".change");
+    
+    links.forEach(link => {
+      let link1=["first.html","project.html","first.html","project.html"]
+      link1.forEach(e=>{
+        link.href = e
+      })
+      
     });
   }
   
