@@ -1,0 +1,106 @@
+body{
+    background:linear-gradient(to right top,#3D6A89,#5794B1)  ;
+    color: white;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    /* background-image: url("image.png"); */
+    /* background-attachment:fixed ; */
+    /* overflow-y: hidden; */
+    
+}
+/* *{
+padding: 0;
+margin: 0;
+} */
+.main{
+    
+    height: 80vh;
+    width: 40vw;
+    background:linear-gradient(to right top,hsl(227.5deg 44.44% 10.59%),hsl(201.29deg 41.33% 14.71%));
+    box-shadow:-20px 18px 20px 6px rgba(0, 0, 0, 0.778);
+    /* display: flex; */
+    margin: auto;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+.seperator{
+    height: 2px;
+    background-color: #050e21;
+    margin: 20px;
+}
+.heading{
+    text-align: center;
+}
+.details{
+    margin: 0px auto;
+    width: 30vw;
+}
+.encrypt{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    width: 30vw;
+}
+.same{
+    margin: 10px;
+    border-radius: 10px;
+    height: 5vh;
+    box-shadow: -20px 19px 20px black, inset 8px -8px 20px 0px rgba(0, 0, 0, 0.36);
+    /* text-align: center; */
+    background-image: url('download.png');
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    font-size: 24px;
+    padding-left: 50px;
+    
+}
+img{
+    width: 50px;
+}
+
+.sa{
+    color:#121D2D !important;
+    resize:none;
+    scrollbar-width: none;
+    padding-top: 15px;
+    /* align-items: center; */
+    
+}
+.button{
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: x-large;
+    align-self: center;
+    justify-self: center;
+    margin: 20px;
+    /* background-color: #112440c6; */
+    background-color: hsl(227.5deg 44.44% 10.59%);
+    box-shadow: -14px 8px 20px 0px black, inset -3px 5px 20px 0px rgba(255, 255, 255, 0.081);
+    border: none;
+    color: white;
+}
+video{
+    padding: 0;
+    margin: 0;
+    width: 105vw;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    left: -60px;
+    z-index: -1;
+}
+@media (width<1100px) {
+    .main{
+        width: 60vw;
+    }
+    .details{
+        width: 50vw;
+    }
+    .encrypt{
+        width: 50vw;
+    }
+}
